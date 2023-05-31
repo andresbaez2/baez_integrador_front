@@ -1,0 +1,327 @@
+html {
+    background-color: rgb(29, 27, 27) ;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0 auto;
+    height:2950px;
+    width: 1600px;
+    background-color:white;
+    font-family: 'Francois One', sans-serif;
+  }
+  
+  a {
+      text-decoration:none;
+      color: white;
+      margin-right: 20px;
+  }
+
+  header {
+   display: flex;
+   height: 80px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+   background-color: rgb(52, 47, 47) ;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .logo img {
+    height: 70px;
+    margin-right: 12px;
+  }
+
+  nav{
+    font-weight: 600;
+    padding-right: 50px;
+  }
+
+  nav a:hover {
+    color: green;
+  }
+
+
+  .container {
+    height: 900px; 
+    width: 1600px; 
+    position: relative;
+    background-color: rgb(52, 47, 47) ;
+    
+
+  }
+
+  .container img {
+    height: 100%; 
+    width: 100%; 
+    opacity: 0.6;
+  }
+
+  .container h1 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    color: white;
+    
+  }
+
+  .container p {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    color: white;
+    text-align:right;
+    margin-right:175px;
+    font-size:20px;
+    
+  }
+ .container nav  {
+    display:inline-block;
+    position: absolute;
+    top: 70%;
+    left: 64%;
+    text-align:right;
+    margin-right:175px;
+    font-size:20px;
+    background-color: rgb(6, 59, 24);
+    border-radius: 10px;
+    align-items: center;
+    padding: 15px;
+ }
+    
+ .titulo1 {   
+   background-color: white;   
+   text-align: center;
+   margin-top: 20px;
+   padding: 0px;
+   }
+
+ .titulo2 {
+   background-color: white;   
+   text-align: center;
+   font-size:30px;
+   margin-top: -20px;
+   margin-bottom: -30px;
+   padding: 0px;
+  }
+ 
+.tres_imagenes {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  max-width: 1600px;
+
+  }
+
+.card {
+
+  width: 500px; 
+  height: 600px;   
+  margin: 20px;
+  border-radius: 6px;
+  overflow:hidden;
+  background-color: rgb(124, 124, 124) ;
+  color: white;
+  box-shadow: 0px 1px 10px rgba(0,0,0, 0.2);
+  text-align: center ;
+
+}
+
+
+.card img {
+   width: 375px;
+   }
+
+.playa {
+    height: 507px;
+    width: 1600px;
+    background-color: rgb(52, 47, 47) ;
+}
+
+.container2 {
+    height: 507px; 
+    width: 1600px; 
+    position: relative;
+    background-color: rgb(52, 47, 47) ;
+    
+  }
+
+  .container2 img {
+    height: 507px;
+    width: 800px;
+    opacity: 0.6;
+  }
+
+  .container2 h1 {
+
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    color: white;
+    
+  }
+
+  .container2 p {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: white;
+    text-align:left;
+    margin-left: 80px;
+    margin-right:175px;
+    font-size:20px;
+  }
+
+ .container2 nav  {
+
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    text-align:right;
+    margin-right:175px;
+    font-size:20px;
+    background-color: rgb(6, 59, 24);
+    border-radius: 10px;
+    padding: 15px 30px;
+    align-items: center;
+    padding: 15px;
+
+ }
+
+ .input, textarea {
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+ }
+
+
+ #formulario {
+    outline: 1px solid lightsteelblue;
+    margin-top: 50px;
+    padding: 25px;
+  }
+  
+  #formulario table {
+    border-collapse: collapse;
+    width: 100%;
+   
+  }
+  
+  .columna_izquierda {
+    font-size: 13px;
+    text-align: right;
+    height: 40px;
+    padding-left: 20px;
+  }
+  
+  .columna_derecha {
+    padding-left: 5px;
+  }
+  
+  label {
+   
+    display: block;
+    font-size: 13px;
+  }
+  
+  .label_gris {
+    background-color: lightgray;
+    outline: dashed 1px;
+    font-weight: bold;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+  }
+  
+  .interlineado {
+    line-height: 22px;
+  }
+  
+  
+  input {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+   
+    padding-left: 5px;
+  }
+  
+  
+  .renglon {
+    height: 20px;
+  }
+  
+  .columna_izquierda_opciones {
+    font-size: 13px;
+    text-align: right;
+    padding-right: 15px;
+    font-weight: bold;
+  }
+  
+  #comentarios {
+      width:600px;
+      height:100px;
+      border:1px dashed gray;
+    padding:5px;
+    
+      resize:none;
+  }
+  
+  
+  #enviar
+  {
+      width: 100px;
+      border: 1px dashed black;
+      margin-top: 20px;
+      border-radius: 10px; /* Bordes redondeados */
+      margin-bottom: 10px;
+    margin-left: 300px;
+  }
+  
+  
+  #borrar
+  {
+      width:100px;
+      border:1px dashed black;
+      background-color: rgb(102, 153, 204);
+      margin:20px;
+      border-radius: 10px; /* Border redondeados */
+  }
+  
+  .contenedor_z2CONTACTO {  
+    width: 920px;
+    position: relative;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-left: 360px;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+   
+  }
+  .elemento_4z2 {
+    margin-left: 0px;
+    margin-top: -20px;
+    z-index: 1;
+  }
+
+  .footer {
+    background-color: rgb(52, 47, 47) ;
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+    font-size:13px;
+  }
